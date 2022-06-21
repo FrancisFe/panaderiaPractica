@@ -1,0 +1,17 @@
+.w-100 {
+    width: 100% !important;
+    height: 80vh;
+  }
+.filterImagenes{
+  width: 500px;
+}
+.filterImagenes:hover{
+  -webkit-filter: opacity(.5);
+  filter: opacity(.5);
+}
+
+@media all and (max-width: 576px){
+    .centrar{
+      text-align: center;
+    }
+}
